@@ -1,0 +1,152 @@
+body{
+    background-color: rgba(23, 23, 54, 0.973);
+}
+.heading{
+    display: flex;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+}
+.logo a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar{
+    margin: 6px; 
+    position:  absolute;
+    left: 120vh;
+}
+.navbar a{
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+.navbar a:hover{
+    font-size: 18px;
+    font-weight: bolder;
+    transform: scale(1.2);
+    transition: 0.4s ease-in-out;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 10px;
+}
+hr{
+    border: none;
+    height: 0.5px;
+    background-color: #fff;
+}
+.content-wrapper{ 
+    display: flex;
+}
+.image img{
+    width: 60em;
+}
+.rotate{
+    animation: rotation 15s infinite linear;
+}
+@keyframes rotation{
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+.content{
+    color: #fff;
+    width: 35vh;
+    margin-top: 15vh;
+}
+.name{
+    font-size: 45px;
+    display: inline-block;
+}
+.paragraph{
+    font-size: small;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 20px;
+}
+.site span{
+    color: rgb(158, 158, 158);
+}
+.site{
+    padding-bottom: 20px;
+}
+.site a{
+    color: #fff;
+}
+.site i{
+    color: #000000;
+    background-color: #fff;
+    font-size: 12px;
+}
+.hyperlinks{
+    display: grid;
+}
+.hyperlinks button{
+    width: 35vh;
+    color: #fff;
+    background: transparent;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 2px;
+    padding: 8px;
+    text-align: justify;
+    font-weight: bold;
+}
+.hyperlinks a{
+    padding: 5px;
+}
+.hyperlinks button:hover{
+    background-color: rgba(121, 56, 226, 0.823);
+    transform: scale(1.1);
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
+}
+.hyperlinks span{
+    float: left;
+    padding-right: 20px;
+}
+.arrow-heads{
+    text-align: center;
+    padding: 20px;
+}
+.arrow-heads a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+.arrow-heads a:hover{
+    color: rgba(121, 56, 226, 0.823);
+    transition: 0.2s ease-in-out;
+    font-size: large;
+    font-style: italic;
+    font-weight: 600;
+    cursor: pointer;
+}
+.footer{
+    color: #fff;
+    margin-left: 35vh;
+}
+.box{
+    border: 1px solid #fff;
+    display: inline-block;
+    width: 30vh;
+    height: 10vh;
+    padding-left: 12px;
+    margin-left: 15px;
+}
+.box span{
+    font-size: 10px;
+    color: rgb(186, 186, 186);
+}
+.box h2{
+    font-size: 26px;
+    transform:scaleY(1.3)
+}
+
+
+
